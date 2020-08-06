@@ -1,0 +1,17 @@
+{
+    "name": "schema31/php-gcloud-sms-sdk",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Gabriele Orlando",
+            "email": "gorlando@schema31.it"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Schema31\\GCloudSmsSDK\\": "src/"
+        }
+    },	
+    "require": {
+    }
+}
