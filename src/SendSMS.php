@@ -133,7 +133,7 @@ class SendSMS
          * {"exit_status":"1","exit_string":"Security error"}   -> C'è un errore (JSON!)
          * 20 Errore nel numero di destinazione... sarà json o no? Boh!
          */
-		if ($return == "[0]"){
+		if (trim($return) == '' || $return == "[0]"){
             return TRUE;
         }else{
 			$j = json_decode($return);
